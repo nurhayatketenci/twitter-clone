@@ -47,6 +47,7 @@ const sideLinks = [
     icon: MoreIcon,
   },
 ];
+
 const Sidebar = () => {
   const [active, setActive] = useState("Home");
   const handleMenuItemClick = (name) => {
